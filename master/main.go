@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
-  "math/rand"
+  	"math/rand"
 )
 
 var playerScore, computerScore int
