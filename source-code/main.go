@@ -64,10 +64,10 @@ func main() {
 		switch char {
 		case 'b':
 			fmt.Println("Game starting")
-      startGame()
+      			startGame()
 		case 'e':
 			fmt.Println("Ending Game")
-      os.Exit(1)
+      			os.Exit(1)
 		case 's':
 			printScores(name)
 		}
