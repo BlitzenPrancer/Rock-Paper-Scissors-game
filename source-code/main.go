@@ -83,6 +83,7 @@ func results(user rune, computer rune) {
     case "ps", "sr", "rp":
       fmt.Println("You have lost the match :-(\n")
       playerScore--
+      computerScore++
     case "rr","pp","ss":
       fmt.Println("Match Draw :-|\n")
   }
